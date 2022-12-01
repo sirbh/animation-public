@@ -8,7 +8,7 @@ PS: keep your styling simple
 
 ## Instructions
 
-1. Fork and clone the project
+1. Fork and clone the project.
 
 2. Go to website [undraw.co](https://undraw.co/illustrations), or any free SVG open-source of
 you choice. Select and download a picture to work with animation
