@@ -17,6 +17,12 @@ main {
     animation: smile 0.5s linear 1s forwards;
 }
 
+#Pig {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: size 0.2s linear 0.5s forwards;
+}
+
 @keyframes movedown {
   from {
     transform: translateY(0px);
@@ -34,3 +40,17 @@ main {
       transform: translateX(-50px);
     }
   }
+
+@keyframes size {
+    0% {
+        transform: scaleX(1);
+    }
+
+    50% {
+        transform: scaleX(1.2);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
