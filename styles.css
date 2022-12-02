@@ -9,7 +9,7 @@ main {
 }
 
 #Coin {
-    animation: movedown 0.5s linear forwards;
+    animation: movedown 1s linear forwards;
     /* transform: translateX(5px) */
 }
 
@@ -20,15 +20,19 @@ main {
 #Pig {
     transform-origin: center;
     transform-box: fill-box;
-    animation: size 0.2s linear 0.5s forwards;
+    animation: size 0.2s linear 1s forwards;
+}
+
+#Vector_10 {
+  animation: nose 0.5s linear 1s forwards;
 }
 
 @keyframes movedown {
   from {
-    transform: translateY(0px);
+    transform: translateY(0px) rotateX(0deg);
   }
   to {
-    transform: translateY(150px);
+    transform: translateY(150px) rotateX(360deg);
   }
 }
 
@@ -53,4 +57,22 @@ main {
     100% {
         transform: scaleX(1);
     }
+}
+
+@keyframes nose {
+  0% {
+    fill:red
+  }
+  25% {
+    fill:violet;
+  }
+  50% {
+    fill:bisque
+  }
+  75% {
+    fill: yellow;
+  }
+  100% {
+    fill:crimson
+  }
 }
