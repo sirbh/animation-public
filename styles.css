@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+}
+
+#Coin {
+    animation: movedown 0.5s linear forwards;
+    /* transform: translateX(5px) */
+}
+
+#Rectangle2 {
+    animation: smile 0.5s linear 1s forwards;
+}
+
+@keyframes movedown {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(150px);
+  }
+}
+
+@keyframes smile {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(-50px);
+    }
+  }
