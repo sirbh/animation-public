@@ -27,6 +27,11 @@ main {
   animation: nose 0.5s linear 1s forwards;
 }
 
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 @keyframes movedown {
   from {
     transform: translateY(0px) rotateX(0deg);
